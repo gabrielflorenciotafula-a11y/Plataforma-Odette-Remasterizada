@@ -1,0 +1,119 @@
+/*  Dicionário da plataforma:
+
+
+PPOR = NOME DO PROJETO ABREVIADO | Pode ser usado quando se pode ter conflito de informações com por exemplo o localStorage.
+
+
+
+T = Titulo
+TT = Texto
+TP = Titulo Principal
+P = Parte
+S = Superior
+I = Inferior
+E = Esquerda
+D = Direita
+PS = Parte Superior | PI = Parte Inferior | Assim em diante...
+D = Dia/Dias
+S = Semana/Semanas
+DS = Dias da Semana
+M = Mes/Meses
+A = Ano/Anos
+MA = Meses do Ano
+Pro = Produto/Produtos
+Tab = Tabela
+B = Botão
+Cad = Cadastro
+Pa = Paragrafo (<p>)
+
+*/
+
+* {
+    font-family: helvetica;
+}
+
+#PS {
+    Height: 100px;
+    width: 100vw;
+    background-color: #0055A4;
+    Margin: -8px;
+}
+
+#TP {
+    position:absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+#PaiInterface {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    top: 0px;
+    left: 0px;
+}
+
+#Interface {
+    position:absolute;
+    top: 150px;
+    height:425px;
+    width:450px;
+    background-color:rgb(255, 246, 227);
+    border: black solid 5px;
+    border-radius: 10px;
+    display:flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#TPInterface {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-family: Gembul;
+}
+
+#Cad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+#CadNomePa {
+    font-family:Gembul;
+    font-size: 30px;
+    top: 50px;
+}
+
+#CadSalaPa {
+    font-family: Gembul;
+    font-size: 30px;
+    top: 100px;
+}
+
+#BCadPPOR {
+    text-align: center;
+    width: 150px;
+    height: 55px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Gembul;
+    cursor: pointer;
+}
+
+
+
+
+
+@font-face {
+    font-family: Gembul;
+    src: url("gembul/Gembul.otf");
+}

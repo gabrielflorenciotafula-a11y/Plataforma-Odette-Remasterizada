@@ -1,0 +1,95 @@
+/*  Dicionário da plataforma:
+
+
+PPOR = NOME DO PROJETO ABREVIADO | Pode ser usado quando se pode ter conflito de informações com por exemplo o localStorage.
+
+
+
+T = Titulo
+TT = Texto
+TP = Titulo Principal
+P = Parte
+S = Superior
+I = Inferior
+E = Esquerda
+D = Direita
+PS = Parte Superior | PI = Parte Inferior | Assim em diante...
+D = Dia/Dias
+S = Semana/Semanas
+DS = Dias da Semana
+M = Mes/Meses
+A = Ano/Anos
+MA = Meses do Ano
+Pro = Produto/Produtos
+Tab = Tabela
+B = Botão
+Cad = Cadastro
+Pa = Paragrafo (<p>)
+
+*/
+
+* {
+    font-family: Helvetica;
+}
+#TP {
+    position:absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+#PS {
+    Height: 100px;
+    width: 100vw;
+    background-color: #0055A4;
+    Margin: -8px;
+}
+
+#CadNomePPOR {
+    Position:absolute;
+    top: -5px;
+    Right: 5px;
+    color:white;
+}
+
+#CadSalaPPOR {
+    position:absolute;
+    top: 15px;
+    right:5px;
+    color:white;
+}
+
+.TabDS {
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.BDS {
+    width: 75px;
+    Height: 75px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 15px;
+    font-size: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    Transition: border 0.5s ease, transform 0.5s ease; 
+}
+
+.BDS:hover {
+    border: black solid 7px;
+    transform: scale(1.05);
+}
+
+
+
+#BDSSegunda {
+    cursor: pointer;
+}
+
